@@ -1,0 +1,233 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for all internal anchor links */
+}
+
+body {
+  scroll-behavior: smooth; /* Enable smooth scrolling for all internal anchor links */
+}
+/* Improved styles for the tribute page */
+
+/* Background styles */
+body {
+  background-color: #f7f7f7; /* Light background color */
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+#main {
+  background-color: #fff; /* White content background */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  margin: 20px auto; /* Center the content and provide some spacing */
+  max-width: 800px; /* Limit the content width for readability */
+  padding: 20px;
+  min-width: 100%; /* Set a minimum width of 80% for the main content */
+  margin: 0 auto;
+
+
+}
+
+/* Header styles */
+header {
+  background-color: #353535; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center; /* Center-align the text */
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif; /* Use a more stylish font */
+  margin: 20px 0; /* Add top margin to create space between the navigation bar and h1 */
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Simplified and minimalistic navigation bar styles */
+
+.button-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation items */
+}
+
+.button-container ul li {
+  margin: 0 10px; /* Add spacing between list items */
+}
+
+.button-container ul li a {
+  border: 2px solid #fff; /* White border */
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition */
+}
+
+.button-container ul li a:hover {
+  background-color: #fff; /* White background on hover */
+  color: #353535; /* Dark text on hover */
+}
+
+.center-img img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block; /* Make the image a block-level element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+.center-div {
+  text-align: center;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+/* Time-line section styles */
+#time-line {
+  background-color: #d9d9d9;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 65px;
+  text-align: center; /* Center-align the content */
+}
+
+#time-line h2 {
+  background-color: #353535;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Add margin between h2 and h3 */
+  display: inline-block; /* Display inline to prevent it from taking full width */
+}
+
+#time-line h3 {
+  font-size: 18px; /* Increase font size for h3 */
+  margin-bottom: 10px; /* Add margin below h3 */
+}
+
+/* Paragraph styles */
+p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left; /* Align list items to the left within the max-width container */
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+#career {
+  background-color: #d9d9d9;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 65px;
+  text-align: center; /* Center-align the content */
+  height:auto
+}
+
+#career h2 {
+  background-color: #353535;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Add margin between h2 and h3 */
+  display: inline-block; /* Display inline to prevent it from taking full width */
+}
+
+p{
+  font-weight:bold ;
+  padding: 10px;
+}
+
+.img-2 {
+  width: 500px; /* Set the width of the container */
+  margin: 20px auto; /* Add margin for spacing around the image */
+  text-align: center; /* Center-align the image */
+  padding-top: 35px;
+}
+
+.img-2 img {
+  width: 100%; /* Ensure the image takes the full width of the container */
+  max-width: 100%;
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px; /* Apply rounded corners */
+  filter: grayscale(100%)
+}
+
+#family {
+  background-color: #d9d9d9;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 65px;
+  text-align: center; /* Center-align the content */
+  height:auto
+}
+
+.img-3 {
+  width: 100%; /* Ensure the image takes the full width of the container */
+  max-width: 100%;
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px; /* Apply rounded corners */
+  filter: grayscale(100%)
+}
+
+footer {
+  background-color: #333; /* Background color of the footer */
+  color: #fff; /* Text color */
+  text-align: center; /* Center-align the content */
+  padding: 20px; /* Padding for spacing */
+}
+
+.firm-name {
+  font-size: 20px; /* Size for the firm name */
+  font-weight: bold; /* Bold font for the name */
+}
+
+.contact-info {
+  font-size: 16px; /* Size for contact information */
+  margin: 3px 0; /* Margin between contact lines */
+}
+
+
+
+
+
+
+
+
